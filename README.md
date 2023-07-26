@@ -9,7 +9,7 @@ Certifique-se de ter os seguintes requisitos antes de executar a API:
 - RabbitMQ instalado e configurado
 - Chave de API válida do Firebase Cloud Messaging (FCM) para notificações push (se aplicável)
 
-###Siga os passos abaixo para configurar e executar a API:
+### Siga os passos abaixo para configurar e executar a API:
 
 Clone o repositório para o seu ambiente local:
 
