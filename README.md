@@ -1,4 +1,4 @@
-### Notificação com RabbitMQ e Laravel
+## Notificação com RabbitMQ e Laravel
 Codificação em PHP de uma API REST desenvolvida com o framework Laravel para processar notificações em filas utilizando RabbitMQ. As notificações podem ser enviadas por e-mail ou como notificações push para dispositivos móveis.
 
 - Requisitos
@@ -9,7 +9,7 @@ Certifique-se de ter os seguintes requisitos antes de executar a API:
 - RabbitMQ instalado e configurado
 - Chave de API válida do Firebase Cloud Messaging (FCM) para notificações push (se aplicável)
 
-####Siga os passos abaixo para configurar e executar a API:
+###Siga os passos abaixo para configurar e executar a API:
 
 Clone o repositório para o seu ambiente local:
 
@@ -21,7 +21,7 @@ cd Notification-Laravel-RabbitMQ
 
 - composer install
 
-#### Configure as variáveis de ambiente:
+### Configure as variáveis de ambiente:
 Renomeie o arquivo .env.example para .env e defina as configurações do RabbitMQ e da chave de API do FCM, se necessário.
 
 Execute as migrações do banco de dados:
@@ -31,7 +31,7 @@ Inicie o servidor de desenvolvimento:
 
 - php artisan serve
 Uso
-#### A API possui apenas uma rota, que é responsável por consumir as notificações da fila e processá-las:
+### A API possui apenas uma rota, que é responsável por consumir as notificações da fila e processá-las:
 
 POST /notifications: Esta rota consome as notificações presentes na fila do RabbitMQ e as processa. Dependendo do tipo de notificação (e-mail ou push), a API enviará a notificação para o respectivo destino.
 Certifique-se de que o servidor RabbitMQ esteja em execução antes de consumir as notificações.
