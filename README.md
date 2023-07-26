@@ -1,5 +1,5 @@
 ### Notificação com RabbitMQ e Laravel
-Codificação de uma API REST desenvolvida com o framework Laravel para processar notificações em filas utilizando RabbitMQ. As notificações podem ser enviadas por e-mail ou como notificações push para dispositivos móveis.
+Codificação em PHP de uma API REST desenvolvida com o framework Laravel para processar notificações em filas utilizando RabbitMQ. As notificações podem ser enviadas por e-mail ou como notificações push para dispositivos móveis.
 
 - Requisitos
 Certifique-se de ter os seguintes requisitos antes de executar a API:
@@ -45,7 +45,7 @@ json
 **{
   "type": "email",
   "data": {
-    "email": "destinatario@example.com"
+    "email": "destinatario@examplo.com"
   }
 }**
 - Para notificação push:
